@@ -1,76 +1,386 @@
-.Login_form{
-    background-color: #1E1E1E;
-}
-.main-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15rem;
+@media (max-width: 575.98px) { 
+    .Login_form{
+        height: 100vh;
+    }
+    .main-body {
+        /* height: 100vh; */
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+    .logo-div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .login-body {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: flex-start;
+        background: #242424;
+        backdrop-filter: blur(1110px);
+        border-radius: 8px;
+        padding: 7px;
+
+    }
+    
+    .login-body h2 {
+        display: flex;
+        align-self: center;
+        color: #04FAFF;
+    }
+    
+    .login-body p {
+        display: flex;
+        color: white;
+        align-self: center;
+        margin-bottom: 2rem
+    }
+    
+    .login-body label {
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .login-input {
+    
+        background: #151515;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        padding: 1rem;
+       
+        color: rgb(255, 255, 255);
+    }
+    .login-input:focus{
+        background-color: #151515;
+    }
+    .login-btn {
+        width: 20rem;
+        height: 3rem;
+        background: #04FAFF;
+        ;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        margin: 1rem;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+    .main-body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo-div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .login-body {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: flex-start;
+        background: #242424;
+        backdrop-filter: blur(1110px);
+        border-radius: 8px;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .login-body h2 {
+        display: flex;
+        align-self: center;
+        color: #04FAFF;
+    }
+    
+    .login-body p {
+        display: flex;
+        color: white;
+        align-self: center;
+        margin-bottom: 2rem
+    }
+    
+    .login-body label {
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .login-input {
+    
+        background: #151515;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.8rem;
+        color: rgb(255, 255, 255);
+    }
+    .login-input:focus{
+        background-color: #151515;
+    }
+    .login-btn {
+        width: 20rem;
+        height: 3rem;
+        background: #04FAFF;
+        ;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        margin: 1rem;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        cursor: pointer;
+    }
 }
 
-.logo-div {
-    display: flex;
-    align-self: center;
-    margin-bottom: 3rem;
-}
 
-.login-body {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: flex-start;
-    background: #242424;
-    backdrop-filter: blur(1110px);
-    border-radius: 8px;
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .main-body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo-div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .login-body {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: flex-start;
+        background: #242424;
+        backdrop-filter: blur(1110px);
+        border-radius: 8px;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .login-body h2 {
+        display: flex;
+        align-self: center;
+        color: #04FAFF;
+    }
+    
+    .login-body p {
+        display: flex;
+        color: white;
+        align-self: center;
+        margin-bottom: 2rem
+    }
+    
+    .login-body label {
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .login-input {
+    
+        background: #151515;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.8rem;
+        color: rgb(255, 255, 255);
+    }
+    .login-input:focus{
+        background-color: #151515;
+    }
+    .login-btn {
+        width: 20rem;
+        height: 3rem;
+        background: #04FAFF;
+        ;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        margin: 1rem;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+ }
 
-.login-body h2 {
-    display: flex;
-    align-self: center;
-    color: #04FAFF;
-}
 
-.login-body p {
-    display: flex;
-    color: white;
-    align-self: center;
-    margin-bottom: 2rem
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .main-body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo-div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .login-body {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: flex-start;
+        background: #242424;
+        backdrop-filter: blur(1110px);
+        border-radius: 8px;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .login-body h2 {
+        display: flex;
+        align-self: center;
+        color: #04FAFF;
+    }
+    
+    .login-body p {
+        display: flex;
+        color: white;
+        align-self: center;
+        margin-bottom: 2rem
+    }
+    
+    .login-body label {
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .login-input {
+    
+        background: #151515;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.8rem;
+        color: rgb(255, 255, 255);
+    }
+    .login-input:focus{
+        background-color: #151515;
+    }
+    .login-btn {
+        width: 20rem;
+        height: 3rem;
+        background: #04FAFF;
+        ;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        margin: 1rem;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+ }
 
-.login-body label {
-    display: flex;
-    color: white;
-    font-size: 0.8rem;
-    margin-left: 1rem;
-}
 
-.login-input {
-
-    background: #151515;
-    box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
-    border-width: 0;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 0.8rem;
-    color: rgb(255, 255, 255);
-}
-.login-input:focus{
-    background-color: #151515;
-}
-.login-btn {
-    width: 20rem;
-    height: 3rem;
-    background: #04FAFF;
-    ;
-    box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
-    border-width: 0;
-    border-radius: 8px;
-    margin: 1rem;
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    cursor: pointer;
-}
+@media (min-width: 1200px) { 
+ 
+    .main-body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo-div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .login-body {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: flex-start;
+        background: #242424;
+        backdrop-filter: blur(1110px);
+        border-radius: 8px;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .login-body h2 {
+        display: flex;
+        align-self: center;
+        color: #04FAFF;
+    }
+    
+    .login-body p {
+        display: flex;
+        color: white;
+        align-self: center;
+        margin-bottom: 2rem
+    }
+    
+    .login-body label {
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .login-input {
+    
+        background: #151515;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.8rem;
+        color: rgb(255, 255, 255);
+    }
+    .login-input:focus{
+        background-color: #151515;
+    }
+    .login-btn {
+        width: 20rem;
+        height: 3rem;
+        background: #04FAFF;
+        ;
+        box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 8px;
+        margin: 1rem;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+ }

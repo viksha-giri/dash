@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Login.css"
 import logo from "../assets/images/logo.png"
+import {Link} from "react-router-dom"
 const Login = () => {
   return (
     <>
@@ -24,7 +25,7 @@ const Login = () => {
     <input type="password" className="form-control login-input" id="exampleInputPassword1" placeholder="Password"/>
   </div>
 
-    <a className="" href="/dashboard" ><button className="login-btn" >Login</button></a>
+    <Link to="/dashboard"><button className="login-btn" >Login</button></Link>
 </form>
                   
                 </div>

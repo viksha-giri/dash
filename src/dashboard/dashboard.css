@@ -1,0 +1,80 @@
+.brand-logo img {
+    width: 166px;
+}
+
+.sidebar {
+    margin: 60px 0;
+}
+
+.sidebar li {
+    background-color: #121212;
+    color: #C4C4C4;
+    padding: 25px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logout-btn {
+    border: 0;
+    background-color: transparent;
+    color: #C4C4C4;
+    padding: 25px 16px;
+    margin: 25px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.sidebar li:hover,
+.logout-btn:hover {
+    background-color: #04FAFF;
+    color: #222222;
+    cursor: pointer;
+}
+
+.sidebar li:hover img,
+.logout-btn:hover img {
+    filter: invert(1);
+}
+
+.toolbar-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background: white;
+}
+
+.fs-18{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.statics-cards{
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 14px 20px;
+    min-width: 230px;
+}
+
+.bg-blue{
+    background-color: #51BCD3;
+}
+.bg-yellow{
+    background-color: #DBA336;
+}
+.bg-pink{
+    background-color: #DD3FE0;
+}
+.bg-green{
+    background-color: #51DC78;
+}
